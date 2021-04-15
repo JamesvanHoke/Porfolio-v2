@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James van Hoke</title>
+    <link rel="stylesheet" href="Assets/CSS/Style.css"" />
+  </head>
+  <!-- GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them ✅
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section✅
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
+  <body>
+    <header class="header">
+      <div>
+        <img
+          src="Assets/img/12671829_962833053771221_7892288918778986651_o1_1_15.jpg"
+        />
+        <h1>James van Hoke</h1>
+      </div>
+      <!--Navbar-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          <li>
+            <a href="#My-Work">My Work</a>
+          </li>
+          <li>
+            <a href="#Contact-Me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--End of Navbar-->
+    <!-- About Me-->
+    <main>
+      <section id="About-Me">
+        <h2>About Me</h2>
+        <p>I am an aspiring web developer. I'm currently enrolled in a coding bootcamp through Trilogy Education earning my Full Stack Flex certification and have an anticipated completion date of end of May 2021. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quos aliquam minus doloremque voluptatem a illo tenetur? Possimus quisquam eligendi quod pariatur corporis dolor explicabo delectus, ducimus atque? Sapiente, fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, cupiditate dolorum sit alias architecto iusto temporibus minus quas id excepturi nam veritatis? Dicta, voluptate necessitatibus repellat impedit a numquam nisi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eum facilis esse, nostrum ut, iste quos quae labore aut laborum cum tempore ad voluptates odit reprehenderit est, aliquid nulla aliquam. </p>
+      </section>
+      <!--End About Me -->
+      <br>
+      <!--Work Examples-->
+      <section id="My-Work">
+        <h2>Work Examples</h2>
+      </section>
+      <div>
+        <section class="cards">
+          <div class="card big-card">
+            <a href="">
+              <img src="https://placekitten.com/200/200" />
+            <h4>Placeholder work</h4>
+          </a>
+          </div>
+          <div class="card">
+            <img src="https://placekitten.com/200/200" />
+            <h4>Placeholder work</h4>
+          </div>
+          <div class="card">
+            <img src="https://placekitten.com/200/200" />
+            <h4>Placeholder work</h4>
+          </div>
+
+          <div class="card">
+            <img src="https://placekitten.com/200/200" />
+            <h4>Placeholder work</h4>
+          </div>
+        </section>
+      </div>
+      <!--End Work Example-->
+      <br>
+      <!--Contact Me-->
+      <section id="Contact-Me">
+        <h2>Contact Info</h2>
+        <p>
+          Email: <a href="mailto:james.vanhoke@yahoo.com"> James.vanhhoke@yahoo.com</a>
+        </p>
+        <p>
+        Phone Number: <a href="tel:818-426-6492">(818)426-6492</a>
+        </p>
+        <p>
+          Github: <a href="https://github.com/JamesvanHoke">Profile</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
