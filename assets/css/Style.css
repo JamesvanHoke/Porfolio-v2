@@ -3,17 +3,18 @@ body {
   min-height: 400px;
   margin-bottom: 50px;
   clear: both;
-};
+}
 
 .wrapper {
   text-align: center;
-};
+}
 
 .card-img-top {
+  min-height: 150px;
   height: 150px;
-};
+}
 
 .card-height {
   height: 350px;
   padding-bottom: 20px;
-};
+}
